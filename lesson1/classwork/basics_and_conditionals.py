@@ -8,7 +8,7 @@ print("x:",x)
 print("favorite food:", favorite_food)
 print("height:", height)
 print("likes python:", likes_python)
-num = int(input("Enter a number:"))
+num = input("Enter a number:")
 if num > 0:
     print("The number is positive.")
 elif num == 0:
@@ -16,7 +16,7 @@ elif num == 0:
 else:
     print("The number is negative.")
 if num % 2 == 0:
-    print("The number is even")
+    print("The number is even.")
 else:
     print("The number is odd.")
 if num > 0 and num < 100:

@@ -1,8 +1,10 @@
 # Problem 1
 # Ask the user for their name and age.
 # Print a sentence that uses both variables.
-
-
+print("---------------------------Problem 1---------------------------------")
+name_input = input("What is your name?: ")
+age_input = input("What is your age?: ")
+print("Your name and age:", name_input, age_input)
 
 # Problem 2
 # Ask the user for a number.
