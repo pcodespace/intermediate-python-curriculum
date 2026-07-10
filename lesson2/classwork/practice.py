@@ -34,7 +34,7 @@ print("String without spaces:", new_string)
 # Ask the user for a word.
 # Print "Palindrome" if it reads the same backwards, otherwise print "Not palindrome".
 word = input("Enter a word:")
-if word == word[]:
+if word == word[::-1]:
     print("Palindrome")
 else:
     print("Not palindrome")

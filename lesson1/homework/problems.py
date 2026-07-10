@@ -21,13 +21,12 @@ else:
     print("Your number is odd.")
 
 
-
-
 # Problem 3
 # Create a list of numbers.
 # Print the biggest number in the list.
 print("----------------------Problem 3---------------------------------------")
 numbers = [14, -9, 18, 3, 48, -1888, 9000]
+print("The list of numbers is:", numbers)
 biggest = numbers[0]
 for i in range (len(numbers)):
     if numbers[i] > biggest:
@@ -39,8 +38,6 @@ print("Biggest number is:", biggest)
 # Problem 4
 # Use a while loop to print the numbers from 1 to 10.
 print("--------------------Problem 4-----------------------------------------------")
-
-# print numbers from 1 to 10 using a while loop
 i = 1
 while i <= 10:
     print(i)
@@ -55,7 +52,8 @@ while i <= 10:
 print("-------------------------------Problem 5-------------------------------------------------")
 ref1 = 10
 numbers2 = [8, 17, -18, 12, 21, 2, 4, 9]
-def count_above_10(numbers):
+print("The list of numbers is:", numbers2)
+def count_above_10(numbers2):
     count = 0
     for i in range(len(numbers2)):
         if numbers2[i] > ref1:
@@ -63,3 +61,4 @@ def count_above_10(numbers):
     return count
 
 print("The number of numbers above 10 are:", count_above_10(numbers2))
+print("--------End of Lesson 1 Homework Problems--------------------")
