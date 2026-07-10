@@ -1,5 +1,6 @@
 numbers = [4, 10, 3, 8, 5]
 sum = 0
+print("Our list is",numbers)
 for i in range(len(numbers)):
     item = numbers[i]
     sum += item
